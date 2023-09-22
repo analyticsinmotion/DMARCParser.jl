@@ -2,7 +2,7 @@
 <img src=".github/workflows/assets/images/dmarc.jl-logo.jpg" width=15% height=15%>
 </div>
 
-<h1 align="center">DMARC.jl</h1>
+<h1 align="center">DMARCParser.jl</h1>
 
 <!-- badges: start -->
 <div align="center">
@@ -20,13 +20,13 @@
 </div>
 <!-- badges: end -->
 
-## What is DMARC.jl?
-DMARC.jl is a specialized Julia package designed to processes DMARC aggregate reports, typically in XML format, transforming them into a more human-readable and interpretable format. This transformation allows users to efficiently analyze and gain valuable insights into their domain's email activity, ultimately helping them take proactive steps to ensure email security and prevent malicious activities.
+## What is DMARCParser.jl?
+`DMARCParser.jl` is a specialized Julia package designed to processes DMARC aggregate reports, typically in XML format, transforming them into a more human-readable and interpretable format. This transformation allows users to efficiently analyze and gain valuable insights into their domain's email activity, ultimately helping them take proactive steps to ensure email security and prevent malicious activities.
 
 <br />
 
 ## Functions available in DMARC.jl
-The following table provides an overview of the functions that can be used in DMARC.jl.
+The following table provides an overview of the functions that can be used in DMARCParser.jl.
 
 | Function  | Description |
 | ------------- | ------------- | 
@@ -36,27 +36,27 @@ The following table provides an overview of the functions that can be used in DM
 
 <br />
 
-## How to use DMARC.jl
+## How to use DMARCParser.jl
 
 ### Installation
-You can install the latest **DMARC.jl** release with Julia's package manager:
+You can install the latest **DMARCParser.jl** release with Julia's package manager:
 
 ```julia-repl
 ]
-add DMARC
+add DMARCParser
 ```
 
 or
 
 ```julia
 using Pkg
-Pkg.add("DMARC")
+Pkg.add("DMARCParser")
 ```
 
 ### Usage
-DMARC.jl can be executed with just three lines of code.
+DMARCParser.jl can be executed with just three lines of code.
 ```julia
-using DMARC
+using DMARCParser
 xml_file_name_and_path = "data\dmarc_aggregate_report.xml"
 dmarc_report = dmarc(xml_file_name_and_path)
 ```
@@ -69,7 +69,7 @@ This will return a DataFrame similar to the one below:
 
 To add some formatting like converting *begin* and *end* to DateTime format, use the dmarc_formatted function:
 ```julia
-using DMARC
+using DMARCParser
 xml_file_name_and_path = "data\dmarc_aggregate_report.xml"
 dmarc_report = dmarc_formatted(xml_file_name_and_path)
 ```
@@ -78,7 +78,7 @@ dmarc_report = dmarc_formatted(xml_file_name_and_path)
 
 Should you just want the raw data, use the get_dmarc_data function:
 ```julia
-using DMARC
+using DMARCParser
 xml_file_name_and_path = "data\dmarc_aggregate_report.xml"
 dmarc_raw = get_dmarc_data(xml_file_name_and_path)
 ```
@@ -118,7 +118,7 @@ Here's what each of the tags means in your provided DMARC report
 
 <br />
 
-## DMARC compatible formats
+## DMARCParser compatible formats
 The DMARC Aggregare Reports sent from the following domains (or their associated organizations) have been thoroughly tested to work with the DMARC.jl package:
 - google.com
 - Outlook.com
@@ -126,7 +126,7 @@ The DMARC Aggregare Reports sent from the following domains (or their associated
 - zoho.com
 - iphmx.com
 
-However, DMARC.jl is robust enough to work with any other properly formatted DMARC XML files.
+DMARCParser.jl is robust enough to work with any other properly formatted DMARC XML files.
 
 <br />
 
@@ -138,11 +138,11 @@ However, DMARC.jl is robust enough to work with any other properly formatted DMA
 
 ## Licensing
 
-``DMARC.jl`` is released under the terms of the MIT License. Please refer to the <a href="https://github.com/analyticsinmotion/DMARC.jl/blob/main/LICENSE">LICENSE</a> file for full details. 
+``DMARCParser.jl`` is released under the terms of the MIT License. Please refer to the <a href="https://github.com/analyticsinmotion/DMARCParser.jl/blob/main/LICENSE">LICENSE</a> file for full details. 
 
 This project also includes third-party packages distributed under the MIT license, including XML.jl and DataFrames.jl.
 
-The full NumPy and Pandas licenses can be found directly in the following source codes:
+The full XML.jl and DataFrames.jl licenses can be found directly in the following source codes:
 
 - XML.jl - <a href="https://github.com/JuliaComputing/XML.jl/blob/main/LICENSE">https://github.com/JuliaComputing/XML.jl/blob/main/LICENSE</a>
 - DataFrames.jl - <a href="https://github.com/JuliaData/DataFrames.jl/blob/main/LICENSE.md">https://github.com/JuliaData/DataFrames.jl/blob/main/LICENSE.md</a>
