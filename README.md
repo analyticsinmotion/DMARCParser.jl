@@ -25,7 +25,7 @@
 
 <br />
 
-## Functions available in DMARC.jl
+## Functions available in DMARCParser.jl
 The following table provides an overview of the functions that can be used in DMARCParser.jl.
 
 | Function  | Description |
@@ -119,7 +119,7 @@ Here's what each of the tags means in your provided DMARC report
 <br />
 
 ## DMARCParser compatible formats
-The DMARC Aggregare Reports sent from the following domains (or their associated organizations) have been thoroughly tested to work with the DMARC.jl package:
+The DMARC Aggregare Reports sent from the following domains (or their associated organizations) have been thoroughly tested to work with the DMARCParser.jl package:
 - google.com
 - Outlook.com
 - Mail.Ru
