@@ -11,11 +11,11 @@
 [![Julia](https://img.shields.io/badge/Julia-9558B2?logo=julia&logoColor=white)](https://julialang.org/)&nbsp;&nbsp;
 [![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/analyticsinmotion/DMARC.jl/blob/main/LICENSE)&nbsp;&nbsp;
 ![Status: Stable](https://img.shields.io/badge/Status-Stable-brightgreen)&nbsp;&nbsp;
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://analyticsinmotion.github.io/DMARC.jl/stable/)&nbsp;&nbsp;
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://analyticsinmotion.github.io/DMARC.jl/dev/)&nbsp;&nbsp;
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://analyticsinmotion.github.io/DMARCParser.jl/stable/)&nbsp;&nbsp;
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://analyticsinmotion.github.io/DMARCParser.jl/dev/)&nbsp;&nbsp;
 [![CI](https://github.com/analyticsinmotion/DMARCParser.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/analyticsinmotion/DMARCParser.jl/actions/workflows/CI.yml)&nbsp;&nbsp;
 [![Analytics in Motion](https://raw.githubusercontent.com/analyticsinmotion/.github/main/assets/images/analytics-in-motion-github-badge-rounded.svg)](https://www.analyticsinmotion.com)&nbsp;&nbsp;
-<!-- [![Coverage](https://codecov.io/gh/analyticsinmotion/DMARC.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/analyticsinmotion/DMARC.jl)&nbsp;&nbsp; -->
+<!-- [![Coverage](https://codecov.io/gh/analyticsinmotion/DMARCParser.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/analyticsinmotion/DMARCParser.jl)&nbsp;&nbsp; -->
 
 </div>
 <!-- badges: end -->
