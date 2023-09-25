@@ -13,7 +13,7 @@
 ![Status: Stable](https://img.shields.io/badge/Status-Stable-brightgreen)&nbsp;&nbsp;
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://analyticsinmotion.github.io/DMARC.jl/stable/)&nbsp;&nbsp;
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://analyticsinmotion.github.io/DMARC.jl/dev/)&nbsp;&nbsp;
-[![Build Status](https://github.com/analyticsinmotion/DMARC.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/analyticsinmotion/DMARC.jl/actions/workflows/CI.yml?query=branch%3Amain)&nbsp;&nbsp;
+[![CI](https://github.com/analyticsinmotion/DMARCParser.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/analyticsinmotion/DMARCParser.jl/actions/workflows/CI.yml)&nbsp;&nbsp;
 [![Analytics in Motion](https://raw.githubusercontent.com/analyticsinmotion/.github/main/assets/images/analytics-in-motion-github-badge-rounded.svg)](https://www.analyticsinmotion.com)&nbsp;&nbsp;
 <!-- [![Coverage](https://codecov.io/gh/analyticsinmotion/DMARC.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/analyticsinmotion/DMARC.jl)&nbsp;&nbsp; -->
 
